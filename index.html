@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>WeatherApp</title>
+    <style>
+        body
+        {
+            text-align: center;
+            background-color: aquamarine;
+            overflow-x:hidden;
+            overflow-y: hidden;
+        }
+        form{
+            margin: 10rem;
+            padding: 5rem 10rem;
+            text-align: center;
+            background-color: aliceblue;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        }
+        h1{
+            margin-bottom: 3rem;
+            font-size: 3rem;
+            font-family: poppins,sans-serif;
+            font-weight: bolder;
+        }
+        label{
+            font-size: 2rem;
+            margin: 1rem;
+        }
+        input{
+            padding-left: .5rem;
+            border-radius: 5px;
+            border: 1px solid aquamarine;
+            width: 12rem;
+            height: 2rem;
+            margin : 1rem 1rem 1.5rem 1rem;
+        }
+        button{
+            margin-top: 3rem;
+            width: 10rem;
+            height: 2rem;
+            background-color: aquamarine;
+            border: 1px solid aliceblue;
+            border-radius: 5px;
+        }
+        button:hover{
+            background-color: aliceblue;
+            border: 1px solid aquamarine;
+        }
+        p{
+            margin:1rem;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <form action="/" method="post">
+        <h1>Weather Forcast Application</h1>
+        <label for="cityName">City Name :</label>
+        <input type="text" id="cityName" name="city">
+        <br>
+        <button type="submit">Get Report</button>
+
+        <p>Enter correct city name for weather report</p>
+    </form>
+</body>
+</html>
